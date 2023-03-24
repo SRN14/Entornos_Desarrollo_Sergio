@@ -4,13 +4,17 @@ class CuentaBancaria
 	private String numCuenta;
 	private String nomTitular;
 	private double saldo;
-		
+	private double tipoIntereses
+	3. Realiza la primera modificación en la clase CuentaBancaria incluyendo una
+nueva propiedad llamado TipoIntereses de tipo número real usando el editor
+vim. Realiza el primer commit con el texto “TuNombre_root commit”	
 	//Metodos
 	
 	public CuentaBancaria(String numCuenta,String nomTitular,double saldo)
 	{
 		this.numCuenta = numCuenta;
 		this.nomTitular = nomTitular;
+		this.tipoIntereses = tipoIntereses;
 		ingreso(saldo);
 			}
 	
